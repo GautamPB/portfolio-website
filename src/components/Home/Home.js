@@ -4,14 +4,14 @@ import Connect from '../Connect/Connect'
 
 const Home = () => {
     return (
-        <div className="flex justify-between p-10 ml-0 bg-[#040404] h-screen">
+        <div className="home flex justify-between p-10 ml-0 bg-[#040404] h-screen">
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ y: -100, opacity: 1 }}
                 transition={{ duration: 1.5 }}
-                className="space-y-5 mt-[17%] ml-10 text-[#00ffff] space-y-40"
+                className="mt-[17%] ml-10 text-[#00ffff] space-y-40"
             >
-                <div>
+                <div className="space-y-4">
                     <h1 className="text-8xl font-bold">Hi there,</h1>
                     <p className="text-5xl font-bold">I'm Gautam</p>
                     <p className="text-2xl font-semibold">
