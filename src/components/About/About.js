@@ -41,7 +41,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row lg:space-x-40 mt-10 text-xl">
+                    <div className="flex flex-col lg:flex-row lg:space-x-40 mt-10 text-xl space-y-4">
                         <div className="space-y-4">
                             <Details
                                 title="Born on"
@@ -90,7 +90,7 @@ const About = () => {
 
                         <div className="space-y-2 text-lg text-gray-500">
                             <p>&gt; Coding</p>
-                            <p>&gt; Watching Movies</p>
+                            <p>&gt; Watching movies</p>
                             <p>&gt; Listening to music</p>
                             <p>&gt; Running</p>
                         </div>

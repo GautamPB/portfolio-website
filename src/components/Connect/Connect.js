@@ -3,6 +3,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
+import YouTubeIcon from '@material-ui/icons/YouTube'
 
 const Connect = () => {
     return (
@@ -25,6 +26,11 @@ const Connect = () => {
             <ConnectItem
                 Icon={TwitterIcon}
                 profile="https://twitter.com/Gautam_PB/"
+            />
+
+            <ConnectItem
+                Icon={YouTubeIcon}
+                profile="https://www.youtube.com/channel/UCVY2aMk5oxEosLOYMrK0MTA"
             />
         </div>
     )

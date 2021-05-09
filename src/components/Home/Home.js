@@ -15,7 +15,7 @@ const Home = () => {
                     <h1 className="text-8xl font-bold">Hi there,</h1>
                     <p className="text-5xl font-bold">I'm Gautam</p>
                     <p className="text-2xl font-semibold">
-                        A Web Developer and a Tech Enthusiast
+                        A Web Developer, Self-Learner and a Tech Enthusiast
                     </p>
                 </div>
 
