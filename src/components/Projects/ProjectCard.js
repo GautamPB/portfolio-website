@@ -3,11 +3,8 @@ import { Button } from '@material-ui/core'
 
 const ProjectCard = ({ image, link, title, description, flip, ongoing }) => {
     return (
-        <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="flex flex-col group hover:bg-[#B5FFFD] transition duration-500 ease-in-out mr-5 items-center p-6 rounded-2xl space-y-3"
+        <div
+            className="flex flex-col group hover:bg-[#B5FFFD] transition duration-500 ease-in-out mr-5 items-center p-6 rounded-2xl space-y-3 cursor-pointer"
             data-aos={`flip-${flip}`}
         >
             <div className="transition duration-500 ease-in transform hover:scale-110 mb-4">
@@ -39,7 +36,7 @@ const ProjectCard = ({ image, link, title, description, flip, ongoing }) => {
                     </p>
                 )}
             </div>
-        </a>
+        </div>
     )
 }
 

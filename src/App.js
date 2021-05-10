@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
+import Resume from './components/Resume/Resume'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -17,6 +18,7 @@ function App() {
             <Home />
             <About />
             <Projects />
+            <Resume />
         </div>
     )
 }

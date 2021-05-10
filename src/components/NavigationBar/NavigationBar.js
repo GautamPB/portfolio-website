@@ -25,16 +25,18 @@ const NavigationBar = () => {
                     to="about"
                     duration={1000}
                     smooth={true}
-                    offset={-100}
+                    offset={-80}
                 >
                     <NavBarItem title="About Me" Icon={InformationCircleIcon} />
                 </Link>
 
-                <Link to="projects" duration={1000} smooth={true}>
+                <Link to="projects" duration={1000} offset={-60} smooth={true}>
                     <NavBarItem title="My Projects" Icon={CodeIcon} />
                 </Link>
 
-                <NavBarItem title="My Resume" Icon={DocumentReportIcon} />
+                <Link to="resume" duration={1000} smooth={true}>
+                    <NavBarItem title="My Resume" Icon={DocumentReportIcon} />
+                </Link>
             </div>
 
             <div>

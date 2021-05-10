@@ -4,7 +4,7 @@ import Connect from '../Connect/Connect'
 
 const Home = () => {
     return (
-        <div className="home flex justify-between p-10 ml-0 bg-[#040404] h-screen">
+        <div className="home flex justify-between pt-12 ml-0 bg-[#040404] h-screen">
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ y: -100, opacity: 1 }}
