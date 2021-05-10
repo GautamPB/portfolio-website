@@ -32,7 +32,7 @@ const Resume = () => {
                         <Education
                             university="Vidya Niketan School"
                             city="Bangalore"
-                            education="10th Grade Boards"
+                            education="ICSE 10th Grade Boards"
                             duration="July 2007 - July 2017"
                             description="Completed 10th grade boards at VNS with a final result of 90%. 
                             Scored 98% in Computer Science and 90% in Mathematics."

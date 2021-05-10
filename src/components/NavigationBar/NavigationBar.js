@@ -34,13 +34,15 @@ const NavigationBar = () => {
                     <NavBarItem title="My Projects" Icon={CodeIcon} />
                 </Link>
 
-                <Link to="resume" duration={1000} smooth={true}>
+                <Link to="resume" duration={1000} smooth={true} offset={-60}>
                     <NavBarItem title="My Resume" Icon={DocumentReportIcon} />
                 </Link>
             </div>
 
             <div>
-                <NavBarItem title="Contact Me" Icon={PhoneIcon} />
+                <Link to="contact" duration={1000} smooth={true} offset={-60}>
+                    <NavBarItem title="Contact Me" Icon={PhoneIcon} />
+                </Link>
             </div>
         </header>
     )

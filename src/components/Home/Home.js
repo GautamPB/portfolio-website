@@ -19,7 +19,7 @@ const Home = () => {
                     </p>
                 </div>
 
-                <Connect />
+                <Connect hex="#00ffff" space={10} />
             </motion.div>
 
             <div className="hidden md:inline-block">
