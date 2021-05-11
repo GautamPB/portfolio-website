@@ -5,9 +5,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import YouTubeIcon from '@material-ui/icons/YouTube'
 
-const Connect = ({ hex, space }) => {
+const Connect = ({ hex }) => {
     return (
-        <div className={`flex space-x-${space}`}>
+        <div className="flex space-x-10">
             <ConnectItem
                 Icon={GitHubIcon}
                 profile="https://github.com/GautamPB"

@@ -6,7 +6,7 @@ const Education = ({ university, city, education, duration, description }) => {
                 <p className="text-xl font-semibold">{city}</p>
             </div>
 
-            <div className="flex space-x-2 items-baseline">
+            <div className="flex space-x-0 items-baseline flex-col lg:flex-row lg:space-x-2">
                 <p className="text-lg font-medium">{education}</p>
                 <p className="text-gray-500">{duration}</p>
             </div>

@@ -27,7 +27,6 @@ const Contact = () => {
                 <h1 className="mb-5">Contact Me</h1>
             </div>
 
-            {/* <div className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-4 space-y-10 lg:space-y-0"> */}
             <div className="flex flex-col lg:flex-row lg:space-x-20 space-y-10 lg:space-y-0">
                 <form
                     className="bg-white p-4 rounded-lg w-full lg:w-3/5"
@@ -87,7 +86,7 @@ const Contact = () => {
                 </form>
 
                 <div className="flex flex-col space-y-8">
-                    <Connect hex="#040404" space={4} />
+                    <Connect hex="#040404" />
 
                     <div className="space-y-8">
                         <div

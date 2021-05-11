@@ -1,11 +1,11 @@
 import ProjectCard from './ProjectCard'
-import amazon from '../../assets/amazon-clone.png'
+import snakegame from '../../assets/snake-game.png'
 import facebook from '../../assets/facebook-clone.png'
 import google from '../../assets/google-clone.png'
 import hulu from '../../assets/hulu-clone.png'
 import sparkbooks from '../../assets/sparkbooks.png'
 import stories from '../../assets/stories-made-simple.png'
-import twitter from '../../assets/twitter-clone.png'
+import hangman from '../../assets/hangman.jpg'
 import whatsapp from '../../assets/whatsapp-clone.png'
 
 const Projects = () => {
@@ -17,10 +17,10 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:flex 2xl:flex-wrap justify-center">
                 <ProjectCard
-                    image={amazon}
-                    link="https://fir-86433.firebaseapp.com/"
-                    title="Amazon Clone"
-                    description="Built using ReactJS and Firebase"
+                    image={snakegame}
+                    link="https://github.com/GautamPB/Snake-Game"
+                    title="Snake Game"
+                    description="Built using PyGame"
                     flip="left"
                 />
 
@@ -63,10 +63,10 @@ const Projects = () => {
                 />
 
                 <ProjectCard
-                    image={twitter}
-                    link="https://twitter-clone-30ff8.web.app/"
-                    title="Twitter Clone"
-                    description="Built using ReactJS, Firebase and Firestore"
+                    image={hangman}
+                    link="https://github.com/GautamPB/Hangman"
+                    title="Hangman"
+                    description="Built using C++"
                     flip="left"
                 />
                 <ProjectCard
