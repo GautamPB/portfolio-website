@@ -1,0 +1,15 @@
+.home {
+    /* background: url('../../assets/background.jpg'); */
+    /* background: url('../../assets/bg-1.jpg');
+    background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blackBackground {
+    background-color: black;
+}
+
+.transparentBackground {
+    background: transparent;
+}

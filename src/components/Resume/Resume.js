@@ -4,7 +4,7 @@ import Education from './Education'
 
 const Resume = () => {
     return (
-        <div className="resume w-full p-10">
+        <div className="resume w-full p-10 bg-white">
             <div className="text-4xl font-bold mb-5 border-b-2 border-[#FC0C57]">
                 <h1 className="mb-5">My Resume</h1>
             </div>

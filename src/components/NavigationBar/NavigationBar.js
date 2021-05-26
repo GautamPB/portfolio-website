@@ -1,3 +1,4 @@
+import './NavigationBar.css'
 import { HomeIcon } from '@heroicons/react/solid'
 import { InformationCircleIcon } from '@heroicons/react/solid'
 import NavBarItem from '../NavBarItem/NavBarItem'
