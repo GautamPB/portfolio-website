@@ -26,7 +26,7 @@ const NavigationBar = () => {
                     to="about"
                     duration={1000}
                     smooth={true}
-                    offset={-80}
+                    offset={-70}
                 >
                     <NavBarItem title="About Me" Icon={InformationCircleIcon} />
                 </Link>

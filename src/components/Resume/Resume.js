@@ -86,7 +86,10 @@ const Resume = () => {
                         </div>
                     </div>
 
-                    <div className="items-center justify-center ml-auto mr-auto">
+                    <div
+                        className="items-center justify-center ml-auto mr-auto"
+                        data-aos="fade-right"
+                    >
                         <a
                             href={resume}
                             download="Resume"

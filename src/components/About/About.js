@@ -16,7 +16,7 @@ const About = () => {
                 <div>
                     <div data-aos="fade-up">
                         <p className="text-3xl">
-                            I am an entry-level engineer who likes to code. I am
+                            I am an entry-level engineer who loves coding. I am
                             a self-learner and a team player who is always
                             looking to learn and create something new.
                         </p>
