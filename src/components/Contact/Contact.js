@@ -95,10 +95,7 @@ const Contact = () => {
                         >
                             <LocationMarkerIcon className="h-8 text-blue-500" />
                             <p className="font-semibold text-xl">
-                                #308, 4th A Cross, <br />
-                                HRBR Layout, 3rd Block, <br />
-                                Karnataka, <br />
-                                Bangalore - 560043
+                                Bangalore, Karnataka, India
                             </p>
                         </div>
 

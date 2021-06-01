@@ -4,25 +4,12 @@ import Education from './Education'
 
 const Resume = () => {
     return (
-        <div className="resume w-full p-10 bg-white">
+        <div className="resume w-full p-10 bg-white flex flex-col">
             <div className="text-4xl font-bold mb-5 border-b-2 border-[#FC0C57]">
                 <h1 className="mb-5">My Resume</h1>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 space-y-6 lg:space-y-0 items-center">
-                <div className="items-center justify-center ml-auto mr-auto">
-                    <a
-                        href={resume}
-                        download="Resume"
-                        className="flex space-x-2 bg-[#040404] cursor-pointer p-3 rounded-lg items-center"
-                    >
-                        <DownloadIcon className="h-7 text-[#00ffff]" />
-                        <p className="text-[#00ffff] text-2xl font-bold">
-                            Download Resume
-                        </p>
-                    </a>
-                </div>
-
+            <div className="grid grid-cols-1 lg:grid-cols-2 space-y-6 mb-6 lg:space-y-0">
                 <div>
                     <h1 className="text-blue-800 font-bold text-2xl mb-5">
                         Education
@@ -59,41 +46,57 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div className="space-y-2">
-                    <h1
-                        className="text-blue-800 font-bold text-2xl mb-5"
-                        data-aos="fade-right"
-                    >
-                        Extracurriculars
-                    </h1>
-
-                    <div className="space-y-2" data-aos="fade-right">
-                        <h1>
-                            &gt; Founded a YouTube channel, Incodenito, where I
-                            upload coding tutorials
-                        </h1>
-                        <a
-                            href="https://www.youtube.com/channel/UCVY2aMk5oxEosLOYMrK0MTA"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-blue-500 underline"
+                <div className="flex flex-col space-y-10">
+                    <div className="space-y-2">
+                        <h1
+                            className="text-blue-800 font-bold text-2xl mb-5"
+                            data-aos="fade-right"
                         >
-                            Incodenito
+                            Extracurriculars
+                        </h1>
+
+                        <div className="space-y-2" data-aos="fade-right">
+                            <h1>
+                                &gt; Founded a YouTube channel, Incodenito,
+                                where I upload coding tutorials
+                            </h1>
+                            <a
+                                href="https://www.youtube.com/channel/UCVY2aMk5oxEosLOYMrK0MTA"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-blue-500 underline"
+                            >
+                                Incodenito
+                            </a>
+
+                            <h1>
+                                &gt; Participated in a Smart India Hackathon at
+                                college.
+                            </h1>
+
+                            <h1>
+                                &gt; Participated in a SpaceJam hackathon at
+                                college
+                            </h1>
+
+                            <h1>
+                                &gt; Participated in Hackezee, a hardware based
+                                hackathon at college.
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div className="items-center justify-center ml-auto mr-auto">
+                        <a
+                            href={resume}
+                            download="Resume"
+                            className="flex space-x-2 bg-[#040404] cursor-pointer p-3 rounded-lg items-center"
+                        >
+                            <DownloadIcon className="h-7 text-[#00ffff]" />
+                            <p className="text-[#00ffff] text-2xl font-bold">
+                                Download Resume
+                            </p>
                         </a>
-
-                        <h1>
-                            &gt; Participated in a Smart India Hackathon at
-                            college.
-                        </h1>
-
-                        <h1>
-                            &gt; Participated in a SpaceJam hackathon at college
-                        </h1>
-
-                        <h1>
-                            &gt; Participated in Hackezee, a hardware based
-                            hackathon at college.
-                        </h1>
                     </div>
                 </div>
             </div>

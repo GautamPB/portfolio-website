@@ -27,7 +27,7 @@ const About = () => {
 
                     <div className="text-2xl" data-aos="fade-up">
                         <p>
-                            I study
+                            I am a student of
                             <bold className="font-bold text-[#236B8E]">
                                 {' '}
                                 Electronics and Communication Engineering
@@ -92,7 +92,7 @@ const About = () => {
                             <p>&gt; Coding</p>
                             <p>&gt; Watching movies</p>
                             <p>&gt; Listening to music</p>
-                            <p>&gt; Running</p>
+                            <p>&gt; Gaming</p>
                         </div>
                     </div>
                 </div>
