@@ -9,7 +9,7 @@ const About = () => {
             </div>
 
             <div className="w-full space-y-6 md:flex pb-6 space-x-4">
-                <div className="mr-10 w-100" data-aos="fade-up">
+                <div className="mr-10 w-[350px]" data-aos="fade-up">
                     <img className="rounded-2xl" src={img} alt="" />
                 </div>
 

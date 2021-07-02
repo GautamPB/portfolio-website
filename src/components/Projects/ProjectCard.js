@@ -23,15 +23,15 @@ const ProjectCard = ({ image, link, title, description, flip, ongoing }) => {
                     <a target="_blank" rel="noreferrer" href={link}>
                         <div className="flex items-center bg-[#040404] rounded-lg">
                             <Button className="p-2">
-                                <ExternalLinkIcon className="h-6 text-[#00ffff]" />
-                                <p className="text-[#00ffff] font-semibold ml-2">
+                                <ExternalLinkIcon className="h-6 text-white" />
+                                <p className="text-white font-semibold ml-2">
                                     View Project
                                 </p>
                             </Button>
                         </div>
                     </a>
                 ) : (
-                    <p className="bg-[#040404] text-[#00ffff] font-semibold p-2 rounded-lg">
+                    <p className="bg-[#040404] text-white font-semibold p-2 rounded-lg">
                         In Progress
                     </p>
                 )}

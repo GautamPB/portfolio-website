@@ -78,7 +78,7 @@ const Contact = () => {
                             type="submit"
                             // onSubmit={handleSubmit}
                             onClick={handleSubmit}
-                            className="bg-[#040404] text-[#00ffff] p-2 rounded-lg font-bold w-full"
+                            className="bg-[#040404] text-white p-2 rounded-lg font-bold w-full"
                         >
                             Send Message
                         </button>

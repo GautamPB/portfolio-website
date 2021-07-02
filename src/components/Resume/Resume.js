@@ -95,8 +95,8 @@ const Resume = () => {
                             download="Resume"
                             className="flex space-x-2 bg-[#040404] cursor-pointer p-3 rounded-lg items-center"
                         >
-                            <DownloadIcon className="h-7 text-[#00ffff]" />
-                            <p className="text-[#00ffff] text-2xl font-bold">
+                            <DownloadIcon className="h-7 text-white" />
+                            <p className="text-white text-2xl font-bold">
                                 Download Resume
                             </p>
                         </a>

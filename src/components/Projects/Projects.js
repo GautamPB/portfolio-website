@@ -1,6 +1,6 @@
 import ProjectCard from './ProjectCard'
 import snakegame from '../../assets/snake-game.png'
-import facebook from '../../assets/facebook-clone.png'
+import amazon from '../../assets/amazon-clone.png'
 import google from '../../assets/google-clone.png'
 import hulu from '../../assets/hulu-clone.png'
 import sparkbooks from '../../assets/sparkbooks.png'
@@ -25,10 +25,10 @@ const Projects = () => {
                 />
 
                 <ProjectCard
-                    image={facebook}
-                    link="https://facebook-clone-2906b.web.app/"
-                    title="Facebook Clone"
-                    description="Built using ReactJS, Firebase and Firestore"
+                    image={amazon}
+                    link="https://amazon-clone-next-theta.vercel.app/"
+                    title="Amazon Clone"
+                    description="Built using NextJS, Firebase, Redux and TailwindCSS"
                     flip="right"
                 />
                 <ProjectCard
