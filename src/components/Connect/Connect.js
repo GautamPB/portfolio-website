@@ -7,7 +7,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube'
 
 const Connect = ({ hex }) => {
     return (
-        <div className="flex space-x-10">
+        <div className="flex space-x-10 mx-auto">
             <ConnectItem
                 Icon={GitHubIcon}
                 profile="https://github.com/GautamPB"
