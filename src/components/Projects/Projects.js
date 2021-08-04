@@ -7,6 +7,9 @@ import sparkbooks from '../../assets/sparkbooks.png'
 import stories from '../../assets/stories-made-simple.png'
 import hangman from '../../assets/hangman.jpg'
 import whatsapp from '../../assets/whatsapp-clone.png'
+import nextjs from '../../assets/nextjs.png'
+import python from '../../assets/python.png'
+import react from '../../assets/react.jpg'
 
 const Projects = () => {
     return (
@@ -22,6 +25,7 @@ const Projects = () => {
                     title="Snake Game"
                     description="Built using PyGame"
                     flip="left"
+                    languageCover={python}
                 />
 
                 <ProjectCard
@@ -30,6 +34,7 @@ const Projects = () => {
                     title="Amazon Clone"
                     description="Built using NextJS, Firebase, Redux and TailwindCSS"
                     flip="right"
+                    languageCover={nextjs}
                 />
                 <ProjectCard
                     image={google}
@@ -37,6 +42,7 @@ const Projects = () => {
                     title="Google Clone"
                     description="Built using NextJS, TailwindCSS and Google API"
                     flip="left"
+                    languageCover={nextjs}
                 />
                 <ProjectCard
                     image={hulu}
@@ -44,6 +50,7 @@ const Projects = () => {
                     title="Hulu Clone"
                     description="Built using NextJS, TailwindCSS and TMDB API"
                     flip="right"
+                    languageCover={nextjs}
                 />
 
                 <ProjectCard
@@ -52,6 +59,7 @@ const Projects = () => {
                     ongoing="true"
                     description="A startup company, built using ReactJS, Firebase and TailwindCSS"
                     flip="left"
+                    languageCover={react}
                 />
 
                 <ProjectCard
@@ -60,6 +68,7 @@ const Projects = () => {
                     title="Stories Made Simple"
                     description="App where people can upload their stories, poems or blogs"
                     flip="right"
+                    languageCover={react}
                 />
 
                 <ProjectCard
@@ -68,6 +77,7 @@ const Projects = () => {
                     title="Hangman"
                     description="Built using C++"
                     flip="left"
+                    languageCover={nextjs}
                 />
                 <ProjectCard
                     image={whatsapp}
@@ -75,6 +85,7 @@ const Projects = () => {
                     title="WhatsApp Clone"
                     description="Built using NextJS, TailwindCSS and Firestore"
                     flip="right"
+                    languageCover={nextjs}
                 />
             </div>
         </div>

@@ -6,6 +6,11 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: 'kaushan';
+    src: url('./assets/fonts/KaushanScript-Regular.ttf');
+}
+
 body {
     /* background-color: #040404; */
     /* background: url('./assets/bg-1.jpg'); */

@@ -1,0 +1,15 @@
+.project__coverPicture {
+    display: block;
+}
+
+.project__languagePicture {
+    display: none;
+}
+
+.project__picture:hover > .project__coverPicture {
+    display: none;
+}
+
+.project__picture:hover > .project__languagePicture {
+    display: block;
+}

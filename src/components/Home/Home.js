@@ -8,7 +8,7 @@ const Home = () => {
         <div className="main items-center pt-40 home flex flex-col text-white h-screen mx-auto text-center space-y-40">
             <div className="space-y-4">
                 {/* <h1 className="text-8xl font-bold">Hi there,</h1> */}
-                <p className="text-8xl font-bold">I'm Gautam,</p>
+                <p className="home__intro text-8xl font-bold">I'm Gautam,</p>
                 {/* <p className="text-2xl font-semibold">
                     A Web Developer, Self-Learner and a Tech Enthusiast
                 </p> */}

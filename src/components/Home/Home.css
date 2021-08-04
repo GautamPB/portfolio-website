@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
 }
 
+.home__intro {
+    font-family: 'kaushan';
+}
+
 .blackBackground {
     background-color: black;
 }
