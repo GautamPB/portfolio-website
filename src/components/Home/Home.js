@@ -13,7 +13,7 @@ const Home = () => {
                     A Web Developer, Self-Learner and a Tech Enthusiast
                 </p> */}
                 <p className="text-5xl font-semibold">
-                    a&nbsp;
+                    <p className="mb-[1rem]">a&nbsp;</p>
                     <Typewriter
                         options={{
                             strings: [

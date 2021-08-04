@@ -6,10 +6,10 @@
     margin: 0px;
 }
 
-@font-face {
-    font-family: 'kaushan';
-    src: url('./assets/fonts/KaushanScript-Regular.ttf');
-}
+/* @font-face {
+    font-family: 'raleway';
+    src: url('./assets/fonts/Raleway-VariableFont_wght.ttf');
+} */
 
 body {
     /* background-color: #040404; */
