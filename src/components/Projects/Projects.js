@@ -7,6 +7,7 @@ import sparkbooks from '../../assets/sparkbooks.png'
 import stories from '../../assets/stories-made-simple.png'
 import hangman from '../../assets/hangman.jpg'
 import whatsapp from '../../assets/whatsapp-clone.png'
+import facebook from '../../assets/facebook-clone.png'
 import nextjs from '../../assets/nextjs.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.jpg'
@@ -57,7 +58,7 @@ const Projects = () => {
                     image={sparkbooks}
                     title="SparkBooks Online Store"
                     ongoing="true"
-                    description="A startup company, built using ReactJS, Firebase and TailwindCSS"
+                    description="A startup company, built using ReactJS and Firebase"
                     flip="left"
                     languageCover={react}
                 />
@@ -72,12 +73,12 @@ const Projects = () => {
                 />
 
                 <ProjectCard
-                    image={hangman}
-                    link="https://github.com/GautamPB/Hangman"
-                    title="Hangman"
-                    description="Built using C++"
+                    image={facebook}
+                    link="https://facebook-clone-2906b.web.app/"
+                    title="Facebook Clone"
+                    description="Built using ReactJS and Firebase"
                     flip="left"
-                    languageCover={nextjs}
+                    languageCover={react}
                 />
                 <ProjectCard
                     image={whatsapp}

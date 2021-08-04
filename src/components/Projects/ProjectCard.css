@@ -6,10 +6,10 @@
     display: none;
 }
 
-.project__picture:hover > .project__coverPicture {
+.project:hover > .project__picture > .project__coverPicture {
     display: none;
 }
 
-.project__picture:hover > .project__languagePicture {
+.project:hover > .project__picture > .project__languagePicture {
     display: block;
 }

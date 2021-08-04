@@ -1,5 +1,3 @@
-// transition duration-500 ease-in transform hover:scale-110
-
 import './ProjectCard.css'
 import { ExternalLinkIcon } from '@heroicons/react/solid'
 import { Button } from '@material-ui/core'
@@ -15,10 +13,10 @@ const ProjectCard = ({
 }) => {
     return (
         <div
-            className="flex flex-col group hover:bg-[#B5FFFD] transition duration-500 ease-in-out mr-5 items-center p-6 rounded-2xl space-y-3 cursor-pointer"
+            className="project flex flex-col group hover:bg-[#B5FFFD] transition duration-500 ease-in-out mr-5 items-center p-6 rounded-2xl space-y-3 cursor-pointer"
             data-aos={`flip-${flip}`}
         >
-            <div className="project__picture mb-4">
+            <div className="project__picture mb-4 transition duration-500 ease-in transform hover:scale-110">
                 <img
                     src={image}
                     alt=""
