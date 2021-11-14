@@ -3,7 +3,8 @@ import snakegame from '../../assets/snake-game.png'
 import amazon from '../../assets/amazon-clone.png'
 import google from '../../assets/google-clone.png'
 import hulu from '../../assets/hulu-clone.png'
-import sparkbooks from '../../assets/sparkbooks.png'
+// import sparkbooks from '../../assets/sparkbooks.png'
+import uber from '../../assets/uber-clone.png'
 import stories from '../../assets/stories-made-simple.png'
 // import hangman from '../../assets/hangman.jpg'
 import whatsapp from '../../assets/whatsapp-clone.png'
@@ -36,6 +37,7 @@ const Projects = () => {
                     description="Built using NextJS, Firebase, Redux and TailwindCSS"
                     flip="right"
                     languageCover={nextjs}
+                    github="https://github.com/GautamPB/amazon-clone-next"
                 />
                 <ProjectCard
                     image={google}
@@ -44,6 +46,7 @@ const Projects = () => {
                     description="Built using NextJS, TailwindCSS and Google API"
                     flip="left"
                     languageCover={nextjs}
+                    github="https://github.com/GautamPB/google-clone"
                 />
                 <ProjectCard
                     image={hulu}
@@ -52,15 +55,17 @@ const Projects = () => {
                     description="Built using NextJS, TailwindCSS and TMDB API"
                     flip="right"
                     languageCover={nextjs}
+                    github="https://github.com/GautamPB/hulu-clone"
                 />
 
                 <ProjectCard
-                    image={sparkbooks}
-                    title="SparkBooks Online Store"
-                    ongoing="true"
-                    description="A startup company, built using ReactJS and Firebase"
+                    image={uber}
+                    title="Uber Clone"
+                    link="https://uber-clone-sage.vercel.app"
+                    description="Built using NextJS, Firebase, Mapbox and TailwindCSS"
                     flip="left"
-                    languageCover={react}
+                    languageCover={nextjs}
+                    github="https://github.com/GautamPB/uber-clone/tree/main"
                 />
 
                 <ProjectCard
@@ -79,6 +84,7 @@ const Projects = () => {
                     description="Built using ReactJS and Firebase"
                     flip="left"
                     languageCover={react}
+                    github="https://github.com/GautamPB/stories-made-simple"
                 />
                 <ProjectCard
                     image={whatsapp}
@@ -87,6 +93,7 @@ const Projects = () => {
                     description="Built using NextJS, TailwindCSS and Firestore"
                     flip="right"
                     languageCover={nextjs}
+                    github="https://github.com/GautamPB/whatsapp-clone-next"
                 />
             </div>
         </div>
