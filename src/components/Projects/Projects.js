@@ -3,15 +3,14 @@ import snakegame from '../../assets/snake-game.png'
 import amazon from '../../assets/amazon-clone.png'
 import google from '../../assets/google-clone.png'
 import hulu from '../../assets/hulu-clone.png'
-// import sparkbooks from '../../assets/sparkbooks.png'
 import uber from '../../assets/uber-clone.png'
 import stories from '../../assets/stories-made-simple.png'
-// import hangman from '../../assets/hangman.jpg'
 import whatsapp from '../../assets/whatsapp-clone.png'
 import facebook from '../../assets/facebook-clone.png'
 import nextjs from '../../assets/nextjs.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.jpg'
+import discord from '../../assets/discord-clone.png'
 
 const Projects = () => {
     return (
@@ -78,13 +77,13 @@ const Projects = () => {
                 />
 
                 <ProjectCard
-                    image={facebook}
-                    link="https://facebook-clone-2906b.web.app/"
-                    title="Facebook Clone"
-                    description="Built using ReactJS and Firebase"
+                    image={discord}
+                    link="https://discord-clone-eta.vercel.app/"
+                    title="Discord Clone"
+                    description="Built using NextJS, Firebase and TailwindCSS"
                     flip="left"
-                    languageCover={react}
-                    github="https://github.com/GautamPB/stories-made-simple"
+                    languageCover={nextjs}
+                    github="https://github.com/GautamPB/discord-clone"
                 />
                 <ProjectCard
                     image={whatsapp}
