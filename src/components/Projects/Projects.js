@@ -1,5 +1,4 @@
 import ProjectCard from './ProjectCard'
-import snakegame from '../../assets/snake-game.png'
 import amazon from '../../assets/amazon-clone.png'
 import google from '../../assets/google-clone.png'
 import hulu from '../../assets/hulu-clone.png'
@@ -7,9 +6,9 @@ import uber from '../../assets/uber-clone.png'
 import stories from '../../assets/stories-made-simple.png'
 import whatsapp from '../../assets/whatsapp-clone.png'
 import nextjs from '../../assets/nextjs.png'
-import python from '../../assets/python.png'
 import react from '../../assets/react.jpg'
 import discord from '../../assets/discord-clone.png'
+import medium from '../../assets/medium-clone.png'
 
 const Projects = () => {
     return (
@@ -20,12 +19,13 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:flex 2xl:flex-wrap justify-center">
                 <ProjectCard
-                    image={snakegame}
-                    link="https://github.com/GautamPB/Snake-Game"
-                    title="Snake Game"
-                    description="Built using PyGame"
+                    image={medium}
+                    github="https://github.com/GautamPB/Snake-Game"
+                    link="https://medium-clone-nu.vercel.app/"
+                    title="Medium Clone"
+                    description="Built using NextJS, TailwindCSS, TypeScript, SanityIO"
                     flip="left"
-                    languageCover={python}
+                    languageCover={nextjs}
                 />
 
                 <ProjectCard
