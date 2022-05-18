@@ -1,6 +1,6 @@
 import './ConnectItem.css'
 
-const ConnectItem = ({ Icon, profile, hex }) => {
+const ConnectItem = ({ Icon, profile }) => {
     return (
         <a
             href={profile}
@@ -8,7 +8,7 @@ const ConnectItem = ({ Icon, profile, hex }) => {
             rel="noreferrer"
             className="connectItem"
         >
-            <Icon className="text-[hex] cursor-pointer" />
+            <Icon className="text-blue-500 cursor-pointer" />
         </a>
     )
 }

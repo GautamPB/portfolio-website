@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
+import Work from './components/Work/Work'
 import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import AOS from 'aos'
@@ -19,6 +20,7 @@ function App() {
             <Home />
             <About />
             <Projects />
+            <Work />
             <Resume />
             <Contact />
         </div>

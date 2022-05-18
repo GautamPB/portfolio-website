@@ -3,7 +3,7 @@ import Details from './Details'
 
 const About = () => {
     return (
-        <div className="about bg-gray-200 w-full p-10">
+        <div className="about dark:bg-black bg-gray-200 w-full p-10">
             <div className="text-4xl font-bold mb-5 border-b-2 border-[#FC0C57]">
                 <h1 className="mb-5">About Me</h1>
             </div>

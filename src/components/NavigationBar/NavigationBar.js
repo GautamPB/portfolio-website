@@ -1,48 +1,11 @@
-import './NavigationBar.css'
-import { HomeIcon } from '@heroicons/react/solid'
-import { InformationCircleIcon } from '@heroicons/react/solid'
-import NavBarItem from '../NavBarItem/NavBarItem'
-import { CodeIcon } from '@heroicons/react/solid'
-import { DocumentReportIcon } from '@heroicons/react/solid'
-import { PhoneIcon } from '@heroicons/react/solid'
 import { Link } from 'react-scroll'
 
 const NavigationBar = () => {
     return (
-        <header className="flex text-white justify-between p-5 sticky top-0 bg-[#040404] z-50 text-lg">
-            <div className="flex space-x-6">
-                <Link
-                    activeClass="active"
-                    to="home"
-                    duration={1000}
-                    smooth={true}
-                    offset={-80}
-                >
-                    <NavBarItem title="Home" Icon={HomeIcon} />
-                </Link>
-
-                <Link
-                    activeClass="active"
-                    to="about"
-                    duration={1000}
-                    smooth={true}
-                    offset={-70}
-                >
-                    <NavBarItem title="About Me" Icon={InformationCircleIcon} />
-                </Link>
-
-                <Link to="projects" duration={1000} offset={-60} smooth={true}>
-                    <NavBarItem title="My Projects" Icon={CodeIcon} />
-                </Link>
-
-                <Link to="resume" duration={1000} smooth={true} offset={-60}>
-                    <NavBarItem title="My Resume" Icon={DocumentReportIcon} />
-                </Link>
-            </div>
-
-            <div>
+        <header className="flex text-black justify-between bg-transparent text-lg p-5">
+            <div className="text-blue-500 absolute right-0 py-2 px-5 rounded-full cursor-pointer border border-blue-500 mr-5 hover:bg-blue-500 hover:text-white transition ease-in-out duration-300">
                 <Link to="contact" duration={1000} smooth={true} offset={-60}>
-                    <NavBarItem title="Contact Me" Icon={PhoneIcon} />
+                    <p>Let's connect</p>
                 </Link>
             </div>
         </header>

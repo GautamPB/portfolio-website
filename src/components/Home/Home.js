@@ -1,34 +1,25 @@
-// bg-[#040404]
-import './Home.css'
 import Connect from '../Connect/Connect'
-import Typewriter from 'typewriter-effect'
+import Bitmoji from '../../assets/bitmoji.webp'
 
 const Home = () => {
     return (
-        <div className="main items-center pt-40 home flex flex-col text-white h-screen mx-auto text-center space-y-40">
-            <div className="space-y-4">
-                {/* <h1 className="text-8xl font-bold">Hi there,</h1> */}
-                <p className="home__intro text-8xl font-bold">I'm Gautam,</p>
-                {/* <p className="text-2xl font-semibold">
-                    A Web Developer, Self-Learner and a Tech Enthusiast
-                </p> */}
-                <p className="text-5xl font-semibold">
-                    <p className="mb-[1rem]">a&nbsp;</p>
-                    <Typewriter
-                        options={{
-                            strings: [
-                                'Web Developer',
-                                'Self-learner',
-                                'Tech Enthusiast',
-                            ],
-                            loop: true,
-                            autoStart: true,
-                        }}
-                    />
+        <div className="main items-center pt-40 home flex flex-col text-black h-screen mx-auto text-center space-y-40">
+            <div className="space-y-6 flex flex-col items-center">
+                <p className="lg:text-5xl text-2xl font-bold text-blue-500">
+                    <p>Web Developer, Self-Learner & Tech Enthusiast</p>
                 </p>
+
+                <div className="w-[20rem] lg:w-[30rem] flex mx-auto">
+                    <p className="text-md">
+                        I build simple and beautiful websites and love what I
+                        do.
+                    </p>
+                </div>
+
+                <img src={Bitmoji} alt="" />
             </div>
 
-            <Connect hex="#00ffff" />
+            <Connect />
         </div>
     )
 }
