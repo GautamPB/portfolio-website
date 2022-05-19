@@ -11,8 +11,7 @@ const Home = () => {
 
                 <div className="w-[20rem] lg:w-[30rem] flex mx-auto">
                     <p className="text-md">
-                        I build simple and beautiful websites and love what I
-                        do.
+                        I build beautifully simple websites and love what I do.
                     </p>
                 </div>
 
