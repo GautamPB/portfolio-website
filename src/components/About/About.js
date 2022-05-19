@@ -1,100 +1,39 @@
-import img from '../../assets/Capture.jpg'
-import Details from './Details'
-
 const About = () => {
     return (
-        <div className="about dark:bg-black bg-gray-200 w-full p-10">
-            <div className="text-4xl font-bold mb-5 border-b-2 border-[#FC0C57]">
-                <h1 className="mb-5">About Me</h1>
+        <div className="about bg-blue-500 w-full flex flex-col items-center py-[15rem] relative">
+            <div className="w-full text-center space-y-5 text-white">
+                <h1 className="font-bold text-3xl lg:text-5xl">
+                    Hey there, I'm Gautam! Nice to meet you.
+                </h1>
+
+                <div className="max-w-[30rem] mx-auto p-4 text-white">
+                    <p className="text-md lg:text-xl flex items-center flex-col">
+                        <span>
+                            I have collaborated with multiple frontend, backend
+                            and full stack developers to create beautiful
+                            websites and have worked in a few startups with
+                            developers who have lots of experience in this field
+                            to create products for business as well as for
+                            consumer use.
+                        </span>
+
+                        <span className="mt-6">
+                            I am a naturally curious and committed person who
+                            solves his problems, one at a time.
+                        </span>
+                    </p>
+                </div>
             </div>
 
-            <div className="w-full space-y-6 md:flex pb-6 space-x-4">
-                <div className="mr-10 w-[350px]" data-aos="fade-up">
-                    <img className="rounded-2xl" src={img} alt="" />
+            <div className="items-center w-[90%] space-y-5 lg:space-y-0 lg:justify-around bottom-[-10rem] lg:bottom-[-3rem] absolute flex flex-col lg:flex-row lg:space-x-5">
+                {/* about card birthday, hobbies etc */}
+                <div className="bg-white p-10 rounded-xl hover:border-none hover:shadow-xl transition ease-out duration-300 cursor-pointer border border-blue-500 flex flex-col items-center w-full">
+                    <h1 className="font-bold text-lg lg:text-2xl">About me</h1>
                 </div>
 
-                <div>
-                    <div data-aos="fade-up">
-                        <p className="text-3xl">
-                            I am an entry-level engineer who loves coding. I am
-                            a self-learner and a team player who is always
-                            looking to learn and create something new.
-                        </p>
-                    </div>
-
-                    <br />
-                    <br />
-
-                    <div className="text-2xl" data-aos="fade-up">
-                        <p>
-                            I am a student of
-                            <bold className="font-bold text-[#236B8E]">
-                                {' '}
-                                Electronics and Communication Engineering
-                            </bold>
-                        </p>
-                        <p>
-                            at{' '}
-                            <bold className="font-bold text-[#236B8E]">
-                                PES University
-                            </bold>
-                        </p>
-                    </div>
-
-                    <div className="flex flex-col lg:flex-row lg:space-x-40 mt-10 text-xl space-y-4">
-                        <div className="space-y-4">
-                            <Details
-                                title="Born on"
-                                data="24th February, 2001"
-                                entry="right"
-                            />
-
-                            <Details
-                                title="I am"
-                                data="20 years"
-                                entry="right"
-                            />
-
-                            <Details
-                                title="Reach me"
-                                data="pbg2402@gmail.com"
-                                entry="right"
-                            />
-                        </div>
-
-                        <div className="mt-4 md:mt-0 space-y-4">
-                            <Details
-                                title="Based in"
-                                data="Bangalore, India"
-                                entry="left"
-                            />
-
-                            <Details
-                                title="Contact me"
-                                data="+91 83173 78551"
-                                entry="left"
-                            />
-
-                            <Details
-                                title="Currently pursuing"
-                                data="B.Tech"
-                                entry="left"
-                            />
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" className="mt-8">
-                        <h1 className="text-xl font-semibold text-[#1773EA]">
-                            My Hobbies
-                        </h1>
-
-                        <div className="space-y-2 text-lg text-gray-500">
-                            <p>&gt; Coding</p>
-                            <p>&gt; Watching movies</p>
-                            <p>&gt; Listening to music</p>
-                            <p>&gt; Gaming</p>
-                        </div>
-                    </div>
+                {/* what I do card */}
+                <div className="bg-white p-10 rounded-xl hover:border-none hover:shadow-xl transition ease-out duration-300 cursor-pointer border border-blue-500 flex flex-col items-center w-full">
+                    <h1 className="font-bold text-lg lg:text-2xl">What I do</h1>
                 </div>
             </div>
         </div>
