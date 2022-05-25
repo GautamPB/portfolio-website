@@ -2,7 +2,7 @@ import './App.css'
 import NavigationBar from './components/NavigationBar/NavigationBar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
-// import Projects from './components/Projects/Projects'
+import Projects from './components/Projects/Projects'
 // import Work from './components/Work/Work'
 // import Resume from './components/Resume/Resume'
 // import Contact from './components/Contact/Contact'
@@ -19,10 +19,12 @@ function App() {
             <NavigationBar />
             <Home />
             <About />
-            {/* <Projects />
-            <Work />
-            <Resume />
-            <Contact /> */}
+            <div className="lg:mt-[35rem] mt-[112rem]">
+                <Projects />
+            </div>
+            {/* <Work /> */}
+            {/* <Resume /> */}
+            {/* <Contact /> */}
         </div>
     )
 }

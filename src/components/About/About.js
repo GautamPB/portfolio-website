@@ -106,7 +106,7 @@ const About = () => {
                             <p>Coding</p>
                             <p>Watching Movies</p>
                             <p>Listening to music</p>
-                            <p>Gyming</p>
+                            <p>Gymming</p>
                             <p>Gaming</p>
                         </div>
                     </div>
