@@ -12,7 +12,7 @@ const ProjectCard = ({ image, link, title, description }) => {
                 />
             </div>
 
-            <div className="opacity-0 space-y-4 text-white flex items-center justify-center flex-col w-full h-full invisible bg-black rounded-lg absolute group-hover:top-0 group-hover:flex group-hover:z-50 group-hover:visible group-hover:opacity-95 transition duration-500">
+            <div className="opacity-0 space-y-4 text-white flex items-center justify-center flex-col w-full h-full invisible bg-black rounded-lg absolute group-hover:top-0 group-hover:flex group-hover:z-50 group-hover:visible group-hover:opacity-95 transition ease-in-out duration-500">
                 <h1 className="font-bold hidden md:block text-2xl">{title}</h1>
 
                 <p className="text-center hidden xl:block px-10">
