@@ -16,11 +16,11 @@ const About = () => {
                     <p className="text-md lg:text-xl flex items-center flex-col">
                         <span>
                             I have collaborated with multiple frontend, backend
-                            and full stack developers to create beautiful
-                            websites and have worked in a few startups with
-                            developers who have lots of experience in this field
-                            to create products for business as well as for
-                            consumer use.
+                            and full stack developers to create fully
+                            functional, creative websites. I have also worked
+                            with highly experienced developers in a few startups
+                            to create business and consumer products and
+                            services.
                         </span>
                     </p>
                 </div>
@@ -95,8 +95,9 @@ const About = () => {
                     {/* content */}
                     <div className="flex flex-col items-center space-y-4">
                         <p className="mt-6 text-center">
-                            I love building websites and learning new things. I
-                            also love working in a team
+                            I enjoy building websites and learning new things. I
+                            am also an excellent team player. also love working
+                            in a team
                         </p>
 
                         <div className="flex flex-col items-center text-center space-y-2">
