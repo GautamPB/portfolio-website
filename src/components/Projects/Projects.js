@@ -6,6 +6,9 @@ import uber from '../../assets/uber-clone.png'
 import whatsapp from '../../assets/whatsapp-clone.png'
 import discord from '../../assets/discord-clone.png'
 import medium from '../../assets/medium-clone.png'
+import animall from '../../assets/animall.png'
+import pyramidDevelopers from '../../assets/pyramidDevelopers.png'
+import reloadGaming from '../../assets/reloadGaming.png'
 
 const Projects = () => {
     return (
@@ -14,13 +17,44 @@ const Projects = () => {
                 <h1 className="mb-5">Projects I have worked on</h1>
             </div>
 
+            {/* solo projects */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 mx-auto w-full gap-8">
-                <ProjectCard image={google} />
-                <ProjectCard image={hulu} />
-                <ProjectCard image={uber} />
-                <ProjectCard image={whatsapp} />
-                <ProjectCard image={discord} />
-                <ProjectCard image={medium} />
+                <ProjectCard
+                    image={google}
+                    link="https://google-clone-sepia.vercel.app/"
+                    title="Google Clone"
+                    description="Built using NextJS, TailwindCSS and Google API"
+                />
+                <ProjectCard
+                    image={hulu}
+                    link="https://hulu-clone-ten.vercel.app/"
+                    title="Hulu Clone"
+                    description="Built using NextJS, TailwindCSS and TMDB API"
+                />
+                <ProjectCard
+                    image={uber}
+                    link="https://uber-clone-sage.vercel.app/login"
+                    title="Uber Clone"
+                    description="Built using NextJS, Firebase, Mapbox and TailwindCSS"
+                />
+                <ProjectCard
+                    image={whatsapp}
+                    link="https://whatsapp-clone-next-wine.vercel.app/"
+                    title="WhatsApp Clone"
+                    description="Built using NextJS, TailwindCSS and Firestore"
+                />
+                <ProjectCard
+                    image={discord}
+                    link="https://discord-clone-eta.vercel.app/"
+                    title="Discord Clone"
+                    description="Built using NextJS, Firebase and TailwindCSS"
+                />
+                <ProjectCard
+                    image={medium}
+                    link="https://medium-clone-nu.vercel.app/"
+                    title="Medium Clone"
+                    description="Built using NextJS, TailwindCSS, TypeScript, SanityIO"
+                />
             </div>
 
             <a
@@ -34,6 +68,31 @@ const Projects = () => {
                     View more on GitHub
                 </p>
             </a>
+
+            {/* collaborations */}
+            <div className="mt-28 w-full flex flex-col space-y-8 items-center justify-center">
+                <h1 className="font-bold text-center md:text-lg lg:text-3xl">
+                    I am happy to have collaborated with some awesome startups
+                </h1>
+
+                <div className="flex flex-col md:flex-row items-center w-full justify-around h-full space-y-12 md:space-y-0">
+                    <div className="w-52 flex items-center justify-center flex-col space-y-8">
+                        <img src={pyramidDevelopers} alt="" />
+                    </div>
+
+                    <div className="w-52 flex items-center justify-center flex-col space-y-8">
+                        <img src={animall} alt="" />
+                    </div>
+
+                    <div className="w-24 flex items-center justify-center flex-col space-y-8">
+                        <img
+                            src={reloadGaming}
+                            alt=""
+                            className="rounded-full"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
