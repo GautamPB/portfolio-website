@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import db from '../../firebase'
 import { DownloadIcon } from '@heroicons/react/solid'
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/GautamPB - Resume.pdf'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
