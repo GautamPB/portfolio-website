@@ -9,6 +9,7 @@ import medium from '../../assets/medium-clone.png'
 import animall from '../../assets/animall.png'
 import pyramidDevelopers from '../../assets/pyramidDevelopers.png'
 import reloadGaming from '../../assets/reloadGaming.png'
+import socon from '../../assets/socon.jpg'
 
 const Projects = () => {
     return (
@@ -82,6 +83,10 @@ const Projects = () => {
 
                     <div className="w-52 flex items-center justify-center flex-col space-y-8">
                         <img src={animall} alt="" />
+                    </div>
+
+                    <div className="w-[6rem] flex items-center justify-center flex-col space-y-8">
+                        <img src={socon} alt="" />
                     </div>
 
                     <div className="w-24 flex items-center justify-center flex-col space-y-8">

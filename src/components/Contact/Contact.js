@@ -6,6 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
+import firebase from 'firebase'
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -18,6 +19,7 @@ const Contact = () => {
             name: name,
             email: email,
             message: message,
+            timestamp: firebase.firestore.Timestamp.fromDate(new Date()),
         })
 
         setName('')
@@ -92,13 +94,16 @@ const Contact = () => {
                                 onChange={(e) => setMessage(e.target.value)}
                             />
                         </div>
-
+                    </form>
+                    <div className="flex items-center justify-center">
                         <button
                             type="submit"
-                            className="hidden"
-                            onSubmit={handleSubmit}
-                        />
-                    </form>
+                            className="w-full lg:w-1/2 text-[#001128] hover:border-2 hover:border-[#001128] mt-4 py-4 rounded-xl transition duration-300 font-bold hover:shadow-lg"
+                            onClick={handleSubmit}
+                        >
+                            Submit
+                        </button>
+                    </div>
                 </div>
 
                 <div className="p-6 w-full flex items-center justify-around space-x-4">
