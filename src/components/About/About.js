@@ -57,7 +57,7 @@ const About = () => {
                             <p className=" font-bold">
                                 I am -{' '}
                                 <span className="font-normal">
-                                    21 years old
+                                    23 years old
                                 </span>
                             </p>
                             <p className=" font-bold">
@@ -73,7 +73,7 @@ const About = () => {
                                 </span>
                             </p>
                             <p className=" font-bold">
-                                Currently pursuing -{' '}
+                                Highest Education -{' '}
                                 <span className="font-normal">
                                     B-Tech at PES University
                                 </span>
@@ -109,6 +109,8 @@ const About = () => {
                             <p>Listening to music</p>
                             <p>Gymming</p>
                             <p>Gaming</p>
+                            <p>Guitar</p>
+                            <p>Badminton</p>
                         </div>
                     </div>
                 </div>
