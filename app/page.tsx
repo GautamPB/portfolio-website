@@ -1,6 +1,7 @@
 import SocialBanner from './components/SocialBanner'
 import Tool from './components/Tool'
 import Experience from './components/Experience'
+import { FileDownload } from '@mui/icons-material'
 
 const Home = () => {
     return (
@@ -92,16 +93,92 @@ const Home = () => {
 
             {/* section 3 */}
             <div className="mb-20">
-                <div>
-                    <h1 className="text-center font-bold text-3xl tracking-wider">
-                        EXPERIENCE
-                    </h1>
-                    <div className="border border-blue-500 w-20 mx-auto my-4" />
-                    <Experience />
-                </div>
+                <h1 className="text-center font-bold text-3xl tracking-wider">
+                    EXPERIENCE
+                </h1>
+                <div className="border border-blue-500 w-20 mx-auto my-4" />
+                <Experience />
             </div>
 
             {/* section 4 */}
+            <div className="max-w-7xl mx-auto mb-20 p-4">
+                <div className="flex-col space-y-6 lg:flex-row lg:items-center lg:space-y-0 justify-between flex items-center border border-blue-500 rounded-lg py-16 px-8">
+                    <h1 className="font-bold text-blue-500 text-2xl">
+                        My Resume
+                    </h1>
+                    <p className="text-center">
+                        I love working in a team. Given a problem, I will try my
+                        best to find the most efficient and best solution.
+                    </p>
+                    <a
+                        href="/assets/Gautam Frontend Resume.pdf"
+                        download="GautamPB - Resume.pdf"
+                        className="flex items-center space-x-4 px-4 py-2 rounded-lg font-bold text-blue-500 border border-blue-500 hover:bg-blue-500 hover:text-white transition duration-200 cursor-pointer"
+                    >
+                        <h1>Resume</h1>
+                        <FileDownload />
+                    </a>
+                </div>
+            </div>
+
+            {/* section 5 */}
+
+            <div className="mb-10 max-w-7xl mx-auto px-4">
+                <div>
+                    <h1 className="text-center font-bold text-3xl tracking-wider">
+                        CONNECT WITH ME
+                    </h1>
+                    <div className="border border-blue-500 w-20 mx-auto my-4" />
+                </div>
+
+                <div className="flex items-center flex-col py-6">
+                    <p className="text-lg">
+                        Interested in working together? Drop a message and
+                        let&apos;s chat!
+                    </p>
+
+                    <div className="mt-6 w-full flex-col flex items-center">
+                        <form className="flex w-full flex-col">
+                            <div className="flex w-full md:space-x-10 space-y-6 md:space-y-0 flex-col md:flex-row space-x-0">
+                                <div className="w-full space-y-6">
+                                    <div className="flex flex-col w-full space-y-2">
+                                        <label className="text-lg font-semibold">
+                                            Your name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            className="border outline-none border-blue-500 rounded-lg px-4 py-2"
+                                        />
+                                    </div>
+
+                                    <div className="w-full flex flex-col space-y-2">
+                                        <label className="text-lg font-semibold">
+                                            Your email
+                                        </label>
+                                        <input
+                                            type="email"
+                                            className="border outline-none border-blue-500 rounded-lg px-4 py-2"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="w-full flex flex-col space-y-2">
+                                    <label className="text-lg font-semibold">
+                                        Your message
+                                    </label>
+                                    <textarea className="resize-none outline-none p-2 w-full h-full border border-blue-500 rounded-lg" />
+                                </div>
+                            </div>
+
+                            <div className="mx-auto">
+                                <button className="font-semibold text-blue-500 border border-blue-500 rounded-xl mt-8 px-8 py-2 hover:bg-blue-500 hover:text-white transition duration-300">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
