@@ -14,7 +14,9 @@ const SocialComponent = ({ Icon, link, color }: Props) => {
         >
             <Icon
                 fontSize="large"
-                className={`group-hover:text-${color} transition duration-200`}
+                className={`group-hover:${
+                    color === 'white' ? 'text-white' : 'text-blue-500'
+                } transition duration-200`}
             />
         </a>
     )
