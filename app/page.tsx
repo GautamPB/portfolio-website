@@ -2,6 +2,7 @@ import SocialBanner from './components/SocialBanner'
 import Tool from './components/Tool'
 import Experience from './components/Experience'
 import { FileDownload } from '@mui/icons-material'
+import Connect from './components/Connect'
 
 const Home = () => {
     return (
@@ -131,53 +132,7 @@ const Home = () => {
                     <div className="border border-blue-500 w-20 mx-auto my-4" />
                 </div>
 
-                <div className="flex items-center flex-col py-6">
-                    <p className="text-lg">
-                        Interested in working together? Drop a message and
-                        let&apos;s chat!
-                    </p>
-
-                    <div className="mt-6 w-full flex-col flex items-center">
-                        <form className="flex w-full flex-col">
-                            <div className="flex w-full md:space-x-10 space-y-6 md:space-y-0 flex-col md:flex-row space-x-0">
-                                <div className="w-full space-y-6">
-                                    <div className="flex flex-col w-full space-y-2">
-                                        <label className="text-lg font-semibold">
-                                            Your name
-                                        </label>
-                                        <input
-                                            type="text"
-                                            className="border outline-none border-blue-500 rounded-lg px-4 py-2"
-                                        />
-                                    </div>
-
-                                    <div className="w-full flex flex-col space-y-2">
-                                        <label className="text-lg font-semibold">
-                                            Your email
-                                        </label>
-                                        <input
-                                            type="email"
-                                            className="border outline-none border-blue-500 rounded-lg px-4 py-2"
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="w-full flex flex-col space-y-2">
-                                    <label className="text-lg font-semibold">
-                                        Your message
-                                    </label>
-                                    <textarea className="resize-none outline-none p-2 w-full h-full border border-blue-500 rounded-lg" />
-                                </div>
-                            </div>
-
-                            <div className="mx-auto">
-                                <button className="font-semibold text-blue-500 border border-blue-500 rounded-xl mt-8 px-8 py-2 hover:bg-blue-500 hover:text-white transition duration-300">
-                                    Submit
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <Connect />
             </div>
         </div>
     )
