@@ -25,7 +25,7 @@ const Home = () => {
                         </h2>
                     </div>
 
-                    <SocialBanner color="white" />
+                    <SocialBanner />
                 </div>
             </div>
 

@@ -3,7 +3,7 @@ import SocialBanner from './SocialBanner'
 const Footer = () => {
     return (
         <div className="bg-blue-500 text-white flex-col space-y-10 flex items-center justify-center py-10 ">
-            <SocialBanner color="blue-500" />
+            <SocialBanner />
             <div className="border w-[90%]" />
 
             <div className="flex flex-col items-center">
